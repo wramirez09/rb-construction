@@ -1,12 +1,12 @@
-import Newsletter from "@/components/Blog/Newsletter";
-import PopularArticle from "@/components/Blog/PopularArticle";
-import SingleBlog from "@/components/Blog/SingleBlog";
+// import Newsletter from "@/components/Blog/Newsletter";
+// import PopularArticle from "@/components/Blog/PopularArticle";
+// import SingleBlog from "@/components/Blog/SingleBlog";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { getAllPosts, getPostBySlug } from "@/utils/markdown";
-import markdownToHtml from "@/utils/markdownToHtml";
-import { format } from "date-fns";
-import Image from "next/image";
-import Link from "next/link";
+// import markdownToHtml from "@/utils/markdownToHtml";
+// import { format } from "date-fns";
+// import Image from "next/image";
+// import Link from "next/link";
 
 type Props = {
   params: { slug: string };
@@ -75,12 +75,12 @@ export default async function Post({ params }: Props) {
     "date",
   ]);
 
-  const content = await markdownToHtml(post.content || "");
+  // const content = await markdownToHtml(post.content || "");
 
   return (
     <>
       <Breadcrumb pageName="Blog Details" />
-
+{/* 
       <section className="pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
@@ -238,7 +238,7 @@ export default async function Post({ params }: Props) {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
