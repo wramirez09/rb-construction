@@ -10,6 +10,10 @@ import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 export default function RootLayout({
   children,

@@ -16,31 +16,35 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What types of construction projects do you handle?"
+              answer="We handle a wide range of construction projects, including residential, commercial, and industrial builds. Whether it’s a small renovation or a large-scale development, our team has the expertise to bring your vision to life."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Do you provide free estimates?"
+              answer="Yes, we offer free, no-obligation estimates for all projects. Our team will assess your needs and provide a detailed quote to ensure transparency from the very start.
+
+"
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How long will my project take to complete?"
+              answer="The timeline for each project varies depending on its scope and complexity. After evaluating your project, we’ll provide a clear schedule, and we pride ourselves on meeting deadlines while maintaining quality."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What kind of building maintenance services do you offer?"
+              answer="We offer comprehensive maintenance services, including routine inspections, repairs, HVAC servicing, plumbing, electrical work, and structural assessments, ensuring your building stays in peak condition."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Are your services covered by a warranty?"
+              answer="Yes, we stand behind the quality of our work with warranties for both construction and maintenance services. Specific warranty details will depend on the project and materials used, but we ensure all clients are covered."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How do I get started with my project?"
+              answer="Getting started is easy! Contact us through our website or by phone to discuss your needs. We’ll arrange a free consultation, provide an estimate, and work with you to create a plan that suits your timeline and budget.
+
+"
             />
           </div>
         </div>

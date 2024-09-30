@@ -75,3 +75,24 @@ body {
 .blog-details h3 {
   @apply text-dark mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
 }
+
+
+/* overrides */
+.bg-primary {
+  background-color: rgb(210 27 27 / var(--tw-bg-opacity));
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(210 27 27);
+}
+
+.\!text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(210 27 27);
+}
+
+.bg-secondary{
+  --tw-bg-opacity: 1;
+    background-color: rgb(50 55 54);
+}
