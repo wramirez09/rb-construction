@@ -89,10 +89,16 @@ body {
 
 .\!text-primary {
   --tw-text-opacity: 1;
-  color: rgb(210 27 27);
+  color: rgb(210 27 27) !important;
 }
 
 .bg-secondary{
   --tw-bg-opacity: 1;
     background-color: rgb(50 55 54);
+}
+
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: #ffffff;
+  color: #000;
 }

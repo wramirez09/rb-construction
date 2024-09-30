@@ -728,9 +728,6 @@ input[type="radio"]:checked ~ .box .circle background{
 .z-\[-1\]{
   z-index: -1;
 }
-.z-\[99999\]{
-  z-index: 99999;
-}
 .z-\[999\]{
   z-index: 999;
 }
@@ -1919,12 +1916,14 @@ body {
 
 .\!text-primary {
   --tw-text-opacity: 1;
-  color: rgb(210 27 27);
+  color: rgb(210 27 27) !important;
 }
 
 .bg-secondary{
-  --tw-bg-opacity: 1;
     background-color: rgb(50 55 54);
+  --tw-bg-opacity: 1;
+  background-color: #ffffff;
+  color: #000;
 }
 
 .placeholder\:text-body-color\/60::-moz-placeholder{

@@ -63,11 +63,11 @@ const Header = () => {
               >
                 {pathUrl !== "/" ? (
                   <>
-                    <b>RG Maintanince</b>
+                    <p className="text-primary"><b>RG Maintanince</b></p>
                     </>
                 ) : (
                   <>
-                    <b>RG Maintanince</b>
+                    <p className="text-primary"><b>RG Maintanince</b></p>
                   </>
                 )}
               </Link>
@@ -256,7 +256,7 @@ const Header = () => {
                   </span>
                 </button>
 
-                {session?.user ? (
+                {/* {session?.user ? (
                   <>
                     <p
                       className={`loginBtn px-7 py-3 text-base font-medium ${
@@ -321,7 +321,7 @@ const Header = () => {
                       </>
                     )}
                   </>
-                )}
+                )} */}
               </div>
             </div>
           </div>

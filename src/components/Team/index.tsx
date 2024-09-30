@@ -6,7 +6,7 @@ const teamData: TeamType[] = [
   {
     id: 1,
     name: "Adveen Desuza",
-    designation: "UI Designer",
+    designation: "Founder and President",
     image: "/images/team/team-01.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -15,7 +15,7 @@ const teamData: TeamType[] = [
   {
     id: 2,
     name: "Jezmin uniya",
-    designation: "Product Designer",
+    designation: "Foreman",
     image: "/images/team/team-02.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -24,7 +24,7 @@ const teamData: TeamType[] = [
   {
     id: 3,
     name: "Andrieo Gloree",
-    designation: "App Developer",
+    designation: "Project Manager",
     image: "/images/team/team-03.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -33,7 +33,7 @@ const teamData: TeamType[] = [
   {
     id: 4,
     name: "Jackie Sanders",
-    designation: "Content Writer",
+    designation: "Client Services",
     image: "/images/team/team-04.png",
     facebookLink: "/#",
     twitterLink: "/#",
