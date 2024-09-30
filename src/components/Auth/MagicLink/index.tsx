@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import toast from "react-hot-toast";
-import { validateEmail } from "@/utils/validateEmail";
+// import { validateEmail } from "@/utils/validateEmail";
 import Loader from "@/components/Common/Loader";
 
 const MagicLink = () => {
@@ -17,27 +17,27 @@ const MagicLink = () => {
     }
 
     setLoader(true);
-    if (!validateEmail(email)) {
-      setLoader(false);
-      return toast.error("Please enter a valid email address.");
-    } else {
-      signIn("email", {
-        redirect: false,
-        email: email,
-      })
-        .then((callback) => {
-          if (callback?.ok) {
-            toast.success("Email sent");
-            setEmail("");
-            setLoader(false);
-          }
-        })
-        .catch((error) => {
-          console.log(error);
-          toast.error("Unable to send email!");
-          setLoader(false);
-        });
-    }
+  //   if (!validateEmail(email)) {
+  //     setLoader(false);
+  //     return toast.error("Please enter a valid email address.");
+  //   } else {
+  //     signIn("email", {
+  //       redirect: false,
+  //       email: email,
+  //     })
+  //       .then((callback) => {
+  //         if (callback?.ok) {
+  //           toast.success("Email sent");
+  //           setEmail("");
+  //           setLoader(false);
+  //         }
+  //       })
+  //       .catch((error) => {
+  //         console.log(error);
+  //         toast.error("Unable to send email!");
+  //         setLoader(false);
+  //       });
+  //   }
   };
 
   return (
