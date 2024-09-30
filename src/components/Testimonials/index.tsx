@@ -5,28 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sabo Masties",
-    designation: "Founder @ Rolex",
+    name: "John M.",
+    designation: "Business Owner",
+    headline:"Exceptional Service from Start to Finish!",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We couldn’t be happier with the results of our office renovation. The team was professional, communicated with us throughout the process, and delivered exactly what we envisioned. Their attention to detail and commitment to quality were truly impressive. We highly recommend them for any construction project!",
     image: "/images/testimonials/author-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Margin Gesmu",
-    designation: "Founder @ UI Hunter",
+    name: "Mark T",
+    designation: "Property Manager",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We’ve been using their maintenance services for over two years now, and they’ve never let us down. From small repairs to larger updates, they’re always on time, efficient, and ensure our property stays in top shape. Their personalized approach and quick response time make all the difference.",
     image: "/images/testimonials/author-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "William Smith",
-    designation: "Founder @ Trorex",
+    name: "Emily & John K",
+    designation: "Homeowners",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We hired them for a new home construction, and they delivered beyond what we could have imagined. Not only was the quality outstanding, but they also made the entire process stress-free by keeping us informed and involved at every step. Their team’s expertise and dedication to our project were evident from day one.",
     image: "/images/testimonials/author-03.png",
     star: 5,
   },

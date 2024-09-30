@@ -7,7 +7,7 @@ const starIcon = (
 );
 
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
-  const { star, name, image, content, designation } = testimonial;
+  const { star, name, image, content, designation, headline } = testimonial;
 
   let ratingIcons = [];
   for (let index = 0; index < star; index++) {
@@ -27,7 +27,6 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
         <div className="mb-[18px] flex items-center gap-[2px]">
           {ratingIcons}
         </div>
-
         <p className="mb-6 text-base text-body-color dark:text-dark-6">
           “{content}
         </p>
@@ -41,6 +40,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
             <h3 className="text-sm font-semibold text-dark dark:text-white">
               {name}
             </h3>
+            
             <p className="text-body-secondary text-xs">{designation}</p>
           </div>
         </div>
