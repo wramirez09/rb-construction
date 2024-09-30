@@ -7,7 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
-import ToasterContext from "./api/contex/ToasetContex";
+// import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -44,7 +44,7 @@ export default function RootLayout({
               enableSystem={false}
               defaultTheme="light"
             >
-              <ToasterContext />
+              {/* <ToasterContext /> */}
               <Header />
               {children}
               <Footer />

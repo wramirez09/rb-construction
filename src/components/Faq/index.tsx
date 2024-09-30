@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Your Questions Answered: Frequently Asked Questions"
+          paragraph="Got questions? We’ve got answers! Browse our FAQs to find the information you need about our construction and maintenance services. Whether you’re curious about our process, pricing, or project timelines, we’re here to help you every step of the way."
           width="640px"
           center
         />

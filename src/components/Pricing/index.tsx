@@ -13,8 +13,8 @@ const Pricing = () => {
         <div className="mb-[60px]">
           <SectionTitle
             subtitle="Pricing Table"
-            title="Our Pricing Plan"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Affordable Solutions with No Hidden Costs"
+            paragraph="We offer competitive pricing tailored to your project’s specific needs. With transparent estimates and detailed breakdowns, you’ll always know exactly what you're paying for—no surprises, just quality service at a fair price."
             center
           />
         </div>
