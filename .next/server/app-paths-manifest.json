@@ -1,21 +1,6 @@
 {
+  "/page": "app/page.js",
   "/(site)/blogs/[slug]/page": "app/(site)/blogs/[slug]/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/forgot-password/update/route": "app/api/forgot-password/update/route.js",
-  "/api/forgot-password/reset/route": "app/api/forgot-password/reset/route.js",
-  "/api/payment/route": "app/api/payment/route.js",
-  "/api/register/route": "app/api/register/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found": "app/_not-found.js",
-  "/(site)/(auth)/forgot-password/page": "app/(site)/(auth)/forgot-password/page.js",
-  "/(site)/error/page": "app/(site)/error/page.js",
-  "/(site)/(auth)/reset-password/[token]/page": "app/(site)/(auth)/reset-password/[token]/page.js",
-  "/(site)/(auth)/signup/page": "app/(site)/(auth)/signup/page.js",
-  "/(site)/contact/page": "app/(site)/contact/page.js",
-  "/(site)/(auth)/signin/page": "app/(site)/(auth)/signin/page.js",
   "/(site)/about/page": "app/(site)/about/page.js",
-  "/(site)/pricing/page": "app/(site)/pricing/page.js",
-  "/(site)/blogs/page": "app/(site)/blogs/page.js",
-  "/api/forgot-password/verify-token/route": "app/api/forgot-password/verify-token/route.js",
-  "/page": "app/page.js"
+  "/not-found": "app/not-found.js"
 }
