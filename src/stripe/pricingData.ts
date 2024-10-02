@@ -6,6 +6,7 @@ export const pricingData: Price[] = [
     unit_amount: 100 * 100,
     nickname: "Basic Maintenance Plan",
     offers: [
+      "Initial consultation and project assessment",
       "Routine inspections (monthly)",
       "Minor repairs (up to 2 hours of labor)",
       "Priority scheduling for urgent requests",
@@ -27,11 +28,10 @@ export const pricingData: Price[] = [
   },
   {
     id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
-    unit_amount: 300 * 100,
+    unit_amount: "150/sq ft",
     nickname: "Custom Construction Plan",
     offers: [
-      "Price: Starting at $150/sq ft (varies based on project scope)",
-      "Initial consultation and project assessment",
+      // "Initial consultation and project assessment",
       "Detailed project timeline and milestones",
       "High-quality materials and skilled labor",
       "Regular updates and communication throughout the build",

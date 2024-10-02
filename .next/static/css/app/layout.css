@@ -1573,6 +1573,9 @@ input[type="radio"]:checked ~ .box .circle background{
 .-tracking-\[2px\]{
   letter-spacing: -2px;
 }
+.-tracking-\[1px\]{
+  letter-spacing: -1px;
+}
 .\!text-primary{
   --tw-text-opacity: 1 !important;
   color: rgb(55 88 249 / var(--tw-text-opacity)) !important;
@@ -2717,9 +2720,14 @@ body {
     padding-top: 160px;
   }
 
-  .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-base{
@@ -2730,21 +2738,6 @@ body {
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:leading-\[1\.2\]{
@@ -2883,8 +2876,28 @@ body {
     line-height: 1.75rem;
   }
 
+  .xl\:text-\[22px\]{
+    font-size: 22px;
+  }
+
+  .xl\:text-\[33px\]{
+    font-size: 33px;
+  }
+
+  .xl\:text-\[13px\]{
+    font-size: 13px;
+  }
+
+  .xl\:text-\[23px\]{
+    font-size: 23px;
+  }
+
   .xl\:leading-\[1\.21\]{
     line-height: 1.21;
+  }
+
+  .xl\:leading-\[2\.21\]{
+    line-height: 2.21;
   }
 }
 

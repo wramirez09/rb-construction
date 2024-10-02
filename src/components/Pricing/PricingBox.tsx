@@ -1,5 +1,5 @@
 import axios from "axios";
-import React from "react";
+import React, { useMemo } from "react";
 import OfferList from "./OfferList";
 import { Price } from "@/types/price";
 
@@ -16,10 +16,23 @@ const PricingBox = ({ product }: { product: Price }) => {
         headers: {
           "Content-Type": "application/json",
         },
-      },
+      }
     );
     window.location.assign(data);
   };
+
+  const [isPriceString, setPriceString] = React.useState(false);
+
+  const price = React.useMemo(() => {
+    if (typeof product.unit_amount === "number") {
+      setPriceString(false);
+      return (product.unit_amount / 100).toLocaleString("en-US", {
+        currency: "USD",
+      });
+    }
+    setPriceString(true);
+    return product.unit_amount;
+  }, [product]);
 
   return (
     <div className="w-full px-4 md:w-1/2 lg:w-1/3">
@@ -35,27 +48,37 @@ const PricingBox = ({ product }: { product: Price }) => {
         <span className="mb-5 block text-xl font-medium text-dark dark:text-white">
           {product.nickname}
         </span>
-        <h2 className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]">
-          <span className="text-xl font-medium">$ </span>
-          <span className="-ml-1 -tracking-[2px]">
-            {(product.unit_amount / 100).toLocaleString("en-US", {
-              currency: "USD",
-            })}
-          </span>
-          <span className="text-base font-normal text-body-color dark:text-dark-6">
-            {" "}
-            Per Month
-          </span>
-        </h2>
+        {isPriceString && (
+          <h2 className="mb-5 text-4xl font-semibold text-dark dark:text-white xl:text-[23px] xl:leading-[1.21]">
+            <span className="text-xl font-medium">$ </span>
+            {<span className="-ml-1 -tracking-[2px]">{price}</span>}
+            <p className="text-base font-normal text-body-color dark:text-dark-6">
+              {" "}
+              (varies based on project scope)
+            </p>
+          </h2>
+        )}
+        {!isPriceString && (
+          <h2 className="mb-5 text-4xl font-semibold text-dark dark:text-white xl:text-[33px] xl:leading-[1.21]">
+            <span className="text-xl font-medium">$ </span>
+            {<span className="-ml-1 -tracking-[2px]">{price}</span>}
+            <span className="text-base font-normal text-body-color dark:text-dark-6">
+              {" "}
+              Per Month
+            </span>
+          </h2>
+        )}
 
         <div className="mb-[50px]">
-          <h3 className="mb-5 text-lg font-medium text-dark dark:text-white">
+          <h3 className="mb-2 text-lg font-medium text-dark dark:text-white">
             Features
           </h3>
           <div className="mb-10">
-            {product?.offers.map((offer, i) => (
-              <OfferList key={i} text={offer} />
-            ))}
+            <ul>
+              {product?.offers.map((offer, i) => (
+                <OfferList key={i} text={offer} />
+              ))}
+            </ul>
           </div>
         </div>
         <div className="w-full">
