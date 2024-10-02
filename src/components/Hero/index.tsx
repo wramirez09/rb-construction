@@ -15,9 +15,13 @@ const Hero = () => {
                 className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
+                <h2 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-4xl lg:leading-[1.2]">
+                  <span className="text-primary">1 STOP</span> Property
+                  Maintenance Inc.
+                </h2>
+                <h2 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-2xl lg:leading-[1.2]">
                   Building Strong Foundations, Maintaining Excellence
-                </h1>
+                </h2>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
                   Our team provides expert construction and maintenance services
                   designed to meet your unique needs, ensuring lasting quality
