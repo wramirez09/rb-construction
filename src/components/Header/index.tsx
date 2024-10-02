@@ -49,7 +49,7 @@ const Header = () => {
         className={`ud-header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "shadow-nav fixed z-[999] border-b border-stroke bg-white/80 backdrop-blur-[5px] dark:border-dark-3/20 dark:bg-dark/10"
-            : "absolute bg-transparent"
+            : "absolute bg-red"
         }`}
       >
         <div className="container">
@@ -63,11 +63,21 @@ const Header = () => {
               >
                 {pathUrl !== "/" ? (
                   <>
-                    <p className="text-primary"><b>RG Maintanince</b></p>
-                    </>
+                    <Image
+                      src="/images/header/stop-logo.png"
+                      width={100}
+                      height={50}
+                      alt="Picture of the author"
+                    />
+                  </>
                 ) : (
                   <>
-                    <p className="text-primary"><b>RG Maintanince</b></p>
+                    <Image
+                      src="/images/header/stop-logo.png"
+                      width={100}
+                      height={50}
+                      alt="Picture of the author"
+                    />
                   </>
                 )}
               </Link>
@@ -223,7 +233,7 @@ const Header = () => {
                             ))}
                           </div>
                         </li>
-                      ),
+                      )
                     )}
                   </ul>
                 </nav>

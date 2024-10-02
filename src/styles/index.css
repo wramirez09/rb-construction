@@ -76,13 +76,12 @@ body {
   @apply text-dark mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
 }
 
-
 /* overrides */
 .bg-primary {
   background-color: rgb(210 27 27 / var(--tw-bg-opacity));
 }
 
-.text-primary{
+.text-primary {
   --tw-text-opacity: 1;
   color: rgb(210 27 27);
 }
@@ -92,9 +91,14 @@ body {
   color: rgb(210 27 27) !important;
 }
 
-.bg-secondary{
+/* :is(.dark .group:hover .dark\:group-hover\:text-primary) {
+  --tw-text-opacity: 1;
+  color: #000 !important;
+} */
+
+.bg-secondary {
   --tw-bg-opacity: 1;
-    background-color: rgb(50 55 54);
+  background-color: rgb(50 55 54);
 }
 
 .bg-secondary {

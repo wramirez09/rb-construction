@@ -4,14 +4,13 @@ import Team from "@/components/Team";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "About Us | RG Maintanence and Construction",
+  title: "About Us | RG Maintanence and Construction",
 };
 
 const AboutPage = () => {
   return (
     <main>
-      <Breadcrumb pageName="About Us Page" />
+      <Breadcrumb pageName="Who We Are" />
       <About />
       <Team />
     </main>

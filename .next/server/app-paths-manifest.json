@@ -1,7 +1,6 @@
 {
-  "/(site)/blogs/page": "app/(site)/blogs/page.js",
+  "/page": "app/page.js",
   "/(site)/about/page": "app/(site)/about/page.js",
-  "/(site)/contact/page": "app/(site)/contact/page.js",
-  "/(site)/(auth)/signin/page": "app/(site)/(auth)/signin/page.js",
-  "/page": "app/page.js"
+  "/(site)/pricing/page": "app/(site)/pricing/page.js",
+  "/(site)/contact/page": "app/(site)/contact/page.js"
 }
