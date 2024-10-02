@@ -106,3 +106,23 @@ body {
   background-color: #ffffff;
   color: #000;
 }
+
+.hover\:bg-primary:hover {
+  background-color: rgb(210 27 27) !important;
+  color: #fff;
+}
+
+.hover\:text-primary:hover,
+.group:hover .group-hover\:text-primary {
+  color: rgb(210 27 27) !important;
+}
+
+.hover\:bg-primary\/90:hover {
+  background-color: rgb(20, 19, 19) !important;
+  color: #fff;
+}
+
+.hover\:bg-\[\#0BB489\]:hover {
+  background-color: rgb(20, 19, 19) !important;
+  color: #fff;
+}

@@ -51,7 +51,7 @@ const Faq = () => {
       </div>
 
       <div>
-        <span className="absolute left-4 top-4 -z-[1]">
+        <span className="absolute left-4 top-4 -z-[1] ">
           <svg
             width="48"
             height="134"
@@ -341,7 +341,7 @@ const Faq = () => {
             />
           </svg>
         </span>
-        <span className="absolute bottom-4 right-4 -z-[1]">
+        <span className="absolute bottom-4 right-4 -z-[1] max-sm:hidden">
           <svg
             width="48"
             height="134"

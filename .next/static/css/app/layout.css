@@ -771,9 +771,6 @@ input[type="radio"]:checked ~ .box .circle background{
 .mb-10{
   margin-bottom: 2.5rem;
 }
-.mb-11{
-  margin-bottom: 2.75rem;
-}
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -1228,13 +1225,13 @@ input[type="radio"]:checked ~ .box .circle background{
   --tw-bg-opacity: 1;
   background-color: rgb(9 14 52 / var(--tw-bg-opacity));
 }
-.bg-\[\#E9F9FF\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(233 249 255 / var(--tw-bg-opacity));
-}
 .bg-\[\#F4F7FF\]{
   --tw-bg-opacity: 1;
   background-color: rgb(244 247 255 / var(--tw-bg-opacity));
+}
+.bg-\[\#fff\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-dark{
   --tw-bg-opacity: 1;
@@ -1255,10 +1252,6 @@ input[type="radio"]:checked ~ .box .circle background{
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(55 88 249 / var(--tw-bg-opacity));
-}
-.bg-red{
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 48 48 / var(--tw-bg-opacity));
 }
 .bg-secondary{
   --tw-bg-opacity: 1;
@@ -1573,9 +1566,6 @@ input[type="radio"]:checked ~ .box .circle background{
 .-tracking-\[2px\]{
   letter-spacing: -2px;
 }
-.-tracking-\[1px\]{
-  letter-spacing: -1px;
-}
 .\!text-primary{
   --tw-text-opacity: 1 !important;
   color: rgb(55 88 249 / var(--tw-text-opacity)) !important;
@@ -1708,7 +1698,8 @@ body {
   color: rgb(17 25 40 / var(--tw-text-opacity));
 }
 
-.sticky-menu #navbarCollapse li > a:hover{
+.sticky-menu #navbarCollapse li > a:hover {
+  color: rgb(210 27 27);
   --tw-text-opacity: 1;
   color: rgb(55 88 249 / var(--tw-text-opacity));
   opacity: 1;
@@ -1735,7 +1726,8 @@ body {
   --tw-text-opacity: 1;
   color: rgb(17 25 40 / var(--tw-text-opacity));
 }
-.sticky-menu .loginBtn:hover{
+.sticky-menu .loginBtn:hover {
+  color: rgb(210 27 27);
   --tw-text-opacity: 1;
   color: rgb(55 88 249 / var(--tw-text-opacity));
   opacity: 1;
@@ -1937,6 +1929,26 @@ body {
   color: #000;
 }
 
+.hover\:bg-primary:hover {
+  background-color: rgb(210 27 27) !important;
+  color: #fff;
+}
+
+.hover\:text-primary:hover,
+.group:hover .group-hover\:text-primary {
+  color: rgb(210 27 27) !important;
+}
+
+.hover\:bg-primary\/90:hover {
+  background-color: rgb(20, 19, 19) !important;
+  color: #fff;
+}
+
+.hover\:bg-\[\#0BB489\]:hover {
+  background-color: rgb(20, 19, 19) !important;
+  color: #fff;
+}
+
 .placeholder\:text-body-color\/60::-moz-placeholder{
   color: rgb(99 115 129 / 0.6);
 }
@@ -1996,11 +2008,6 @@ body {
 .hover\:bg-gray:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-2:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary:hover{
@@ -2237,6 +2244,33 @@ body {
 :is(.dark .group:hover .dark\:group-hover\:text-primary){
   --tw-text-opacity: 1;
   color: rgb(55 88 249 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 540px){
+
+  .max-sm\:flex{
+    display: flex;
+  }
+
+  .max-sm\:hidden{
+    display: none;
+  }
+
+  .max-sm\:flex-col{
+    flex-direction: column;
+  }
+
+  .max-sm\:items-center{
+    align-items: center;
+  }
+
+  .max-sm\:justify-center{
+    justify-content: center;
+  }
+
+  .max-sm\:pl-5{
+    padding-left: 1.25rem;
+  }
 }
 
 @media (min-width: 540px){
@@ -2867,8 +2901,12 @@ body {
     line-height: 2rem;
   }
 
-  .xl\:text-\[42px\]{
-    font-size: 42px;
+  .xl\:text-\[23px\]{
+    font-size: 23px;
+  }
+
+  .xl\:text-\[33px\]{
+    font-size: 33px;
   }
 
   .xl\:text-lg{
@@ -2876,28 +2914,8 @@ body {
     line-height: 1.75rem;
   }
 
-  .xl\:text-\[22px\]{
-    font-size: 22px;
-  }
-
-  .xl\:text-\[33px\]{
-    font-size: 33px;
-  }
-
-  .xl\:text-\[13px\]{
-    font-size: 13px;
-  }
-
-  .xl\:text-\[23px\]{
-    font-size: 23px;
-  }
-
   .xl\:leading-\[1\.21\]{
     line-height: 1.21;
-  }
-
-  .xl\:leading-\[2\.21\]{
-    line-height: 2.21;
   }
 }
 

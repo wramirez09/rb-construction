@@ -74,7 +74,7 @@ const PricingBox = ({ product }: { product: Price }) => {
             Features
           </h3>
           <div className="mb-10">
-            <ul>
+            <ul className="max-sm:pl-5">
               {product?.offers.map((offer, i) => (
                 <OfferList key={i} text={offer} />
               ))}

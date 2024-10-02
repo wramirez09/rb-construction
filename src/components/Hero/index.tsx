@@ -16,12 +16,11 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h2 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-4xl lg:leading-[1.2]">
-                  <span className="text-primary">1 STOP</span> Property
-                  Maintenance Inc.
+                  1 Stop Property Maintenance Inc.
                 </h2>
-                <h2 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-2xl lg:leading-[1.2]">
+                {/* <h2 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-2xl lg:leading-[1.2]">
                   Building Strong Foundations, Maintaining Excellence
-                </h2>
+                </h2> */}
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
                   Our team provides expert construction and maintenance services
                   designed to meet your unique needs, ensuring lasting quality
@@ -31,7 +30,7 @@ const Hero = () => {
                   <li>
                     <Link
                       href="https://nextjstemplates.com/templates/play"
-                      className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
+                      className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-primary"
                     >
                       Contact us
                     </Link>

@@ -12,10 +12,12 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                Building Trust with Expertise and Personalized Service.
+                  Building Trust with Expertise and Personalized Service.
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                We believe in delivering not just exceptional construction and maintenance solutions, but also a tailored experience that meets the unique needs of every client.
+                  We believe in delivering not just exceptional construction and
+                  maintenance solutions, but also a tailored experience that
+                  meets the unique needs of every client.
                 </p>
 
                 <a
@@ -53,7 +55,7 @@ const About = () => {
                   </div>
 
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
-                    <div>
+                    <div className="max-sm:flex max-sm:flex-col max-sm:items-center">
                       <span className="block text-5xl font-extrabold text-white">
                         09
                       </span>
