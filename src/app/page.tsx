@@ -14,7 +14,7 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "RG Construction and Building Maintanence",
+  title: "1 Stop and Property Maintanence LLC",
   description: "Servicing the greater Chicago land area",
 };
 
