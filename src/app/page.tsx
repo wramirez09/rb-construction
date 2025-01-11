@@ -15,7 +15,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title: "1 Stop Property Maintanence LLC",
-	description: "Servicing the greater Chicago land area",
+	description: "Servicing the greater Chicago land area | 60084",
 };
 
 export default function Home() {
