@@ -1,4 +1,4 @@
-// File: /Users/dev/Documents/GitHub/rb-construction/src/app/layout.tsx
+// File: /Users/williamramirez/repos/rb-construction/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

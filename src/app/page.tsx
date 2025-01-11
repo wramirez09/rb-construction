@@ -14,27 +14,27 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "1 Stop and Property Maintanence LLC",
-  description: "Servicing the greater Chicago land area",
+	title: "1 Stop Property Maintanence LLC",
+	description: "Servicing the greater Chicago land area",
 };
 
 export default function Home() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+	const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
 
-  return (
-    <main>
-      <ScrollUp />
-      <Hero />
-      <Features />
-      <About />
-      <CallToAction />
-      <Pricing />
-      <Testimonials />
-      <Faq />
-      <Team />
-      {/* <HomeBlogSection posts={posts} /> */}
-      <Contact />
-      {/* <Clients /> */}
-    </main>
-  );
+	return (
+		<main>
+			<ScrollUp />
+			<Hero />
+			<Features />
+			<About />
+			<CallToAction />
+			<Pricing />
+			<Testimonials />
+			<Faq />
+			{/* <Team /> */}
+			{/* <HomeBlogSection posts={posts} /> */}
+			<Contact />
+			{/* <Clients /> */}
+		</main>
+	);
 }
